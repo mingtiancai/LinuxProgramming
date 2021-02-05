@@ -17,7 +17,9 @@ int main(int argc,char** argv)
     //chapter3
     //copy1(argc,argv);
     //useOpen();
+    
     //chapter4
+    seek_io(argc,argv);
 
 
 
