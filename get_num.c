@@ -24,7 +24,7 @@ static long getNum(const char* fname,const char* arg,int flags,const char* name)
     int base;
 
     if(arg==NULL||*arg=='\0')
-        gtFail(fname,"null or empty string",arg,name);
+        gnFail(fname,"null or empty string",arg,name);
     base=(flags & GN_ANY_BASE) ? 0: (flags & GN_BASE_8) ? 8 : ( flags & GN_BASE_16) ? 16 : 10;
     errno=0;
 

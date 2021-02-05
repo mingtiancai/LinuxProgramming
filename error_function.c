@@ -35,7 +35,7 @@ static void outputError(Boolean useErr,int err,Boolean flushStdout,const char* f
     else
         snprintf(errText,BUF_SIZE,":");
     
-    snprintf(errText,BUF_SIZE,"ERROR%s %s\n",errText,userMsg);
+    snprintf(buf,BUF_SIZE,"ERROR%s %s\n",errText,userMsg);
 
     if(flushStdout)
         fflush(stdout);
@@ -128,32 +128,3 @@ void cmdLineErr(const char* format,...)
     fflush(stderr);
     exit(EXIT_FAILURE);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
