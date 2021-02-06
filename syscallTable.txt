@@ -1,0 +1,18 @@
+int open(const char* pathname,int flag,...);
+int creat(const char* pathname,mode_t mode);
+ssize_t read(int fd,void* buffer,size_t count);
+ssize_t write(inf fd,void* buffer,size_t count);
+int close(int fd);
+off_t lseek(int fd,off_t offset,int whence);
+int fcntl(int fd,int cmd);
+int dup(int oldfd);
+int dup(int oldfd,int newfd);
+int dup3(int oldfd,newfd,int flag);
+ssize_t pread(int fd,void* buf,size_t count,off_t offset);
+ssize_t pwrite(int fd,const void* buf,size_t count,offset offset);
+ssize_t readv(int fd,const struct iovec* iov,int iovcnt);
+ssize_t writev(int fd,const struct iovec* iov,int iovcnt);
+ssize_t preadv(int fd,const struct iovec* iov,int iovcnt,off_t offset);
+ssize_t pwritev(fd,const struct iovec* iov,int iovcnt,off_t offset);
+int truncate(const char* pathname,off_t length);
+int ftruncate(int fd,off_t length);
