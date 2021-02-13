@@ -1,17 +1,16 @@
+
 #include <stdio.h>
 #include <errno.h>
-#include "tlpi_hrd.h"
 #include <math.h>
 #include <stdarg.h>
 #include <setjmp.h>
-#include <unistd.h>
 
 //#include "chapter2/chapter2.h"
 //#include "chapter3/chapter3.h"
 //#include "chapter4/chapter4.h"
 //#include "chapter5/chapter5.h"
 //#include "chapter6/chapter6.h"
-#include "chapter7/chapter7.h"
+
 
 #if ! defined(__sun)
 #define _BSD_SOURCE     /* Get getpass() declaration from <unistd.h> */
@@ -47,7 +46,11 @@ int main(int argc,char** argv)
 
     //chapter8
     //check_password(argc,argv);
-  
+    char *passwd;  
+    char key[] = "123456";  
+    passwd = crypt(key, "$6$y9cP0qlmDYgBk6OZ$");  
+    printf("password: %s\n", passwd);  
+
     
 
    
