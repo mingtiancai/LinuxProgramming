@@ -4,6 +4,8 @@
 #include <math.h>
 #include <stdarg.h>
 #include <setjmp.h>
+#include <time.h>
+#include <locale.h>
 #include <unistd.h>
 
 //#include "chapter2/chapter2.h"
@@ -11,14 +13,8 @@
 //#include "chapter4/chapter4.h"
 //#include "chapter5/chapter5.h"
 //#include "chapter6/chapter6.h"
-#include "chapter7/chapter7.h"
-
-#if ! defined(__sun)
-#define _BSD_SOURCE     /* Get getpass() declaration from <unistd.h> */
-#ifndef _XOPEN_SOURCE
-#define _XOPEN_SOURCE   /* Get crypt() declaration from <unistd.h> */
-#endif
-#endif
+//#include "chapter7/chapter7.h"
+#include "chapter10/chapter10.h"
 
 
 int main(int argc,char** argv)
@@ -49,8 +45,16 @@ int main(int argc,char** argv)
     //check_password(argc,argv);
   
     //chapter9
-    idshow(argc,argv);
+    //idshow(argc,argv);
 
+    //chapter10
+    //calendar_time();
+    //printf("%d\n",_XOPEN_SOURCE);
+    //strtime(argc,argv);
+    //show_time();
+    //process_time(argc,argv);
+
+   
    
 
     printf("end!\n");
