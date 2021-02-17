@@ -54,6 +54,10 @@ int main(int argc,char** argv)
     //show_time();
     //process_time(argc,argv);
 
+    //chapter11
+    t_sysconf();
+    //t_fpathconf();
+
    
    
 
