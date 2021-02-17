@@ -55,7 +55,7 @@ int main(int argc,char** argv)
     //process_time(argc,argv);
 
     //chapter11
-    t_sysconf();
+    //t_sysconf();
     //t_fpathconf();
 
    

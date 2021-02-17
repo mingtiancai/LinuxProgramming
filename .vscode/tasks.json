@@ -1,0 +1,41 @@
+{
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "C/C++: gcc build active file",
+            "command": "/usr/bin/gcc",
+            "args": [
+                "-g",
+                "${file}",
+                "${fileDirname}/chapter2/chapter2.c",
+                "${fileDirname}/chapter3/chapter3.c",
+                "${fileDirname}/chapter4/chapter4.c",
+                "${fileDirname}/chapter5/chapter5.c",
+                "${fileDirname}/chapter6/chapter6.c",
+                "${fileDirname}/chapter7/chapter7.c",
+                "${fileDirname}/chapter8/chapter8.c",
+                "${fileDirname}/chapter9/chapter9.c",
+                "${fileDirname}/chapter10/chapter10.c",
+                "${fileDirname}/chapter11/chapter11.c",
+                "${fileDirname}/chapter12/chapter12.c",
+                "${fileDirname}/error_function.c",
+                "${fileDirname}/get_num.c",
+                "-lcrypt",
+                "-lm",
+                "-o",
+                "${fileDirname}/${fileBasenameNoExtension}"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ],
+    "version": "2.0.0"
+}

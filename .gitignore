@@ -9994,8 +9994,6 @@ build/glibc-glibc-2ORdQG/glibc-2.27/sysdeps/m68k/m680x0/fpu/k_tanl.c
 build/glibc-glibc-2ORdQG/glibc-2.27/sysdeps/m68k/m680x0/fpu/libm-test-ulps
 build/glibc-glibc-2ORdQG/glibc-2.27/sysdeps/m68k/m680x0/fpu/bits/mathinline.h
 main
-.vscode/launch.json
-.vscode/tasks.json
 build/glibc-glibc-2ORdQG/glibc-2.27/sysdeps/m68k/memchr.S
 build/glibc-glibc-2ORdQG/glibc-2.27/sysdeps/m68k/memcopy.h
 build/glibc-glibc-2ORdQG/glibc-2.27/sysdeps/m68k/memusage.h
@@ -16555,7 +16553,6 @@ build/glibc-glibc-2ORdQG/glibc-2.27/wctype/wctype_l.c
 build/glibc-glibc-2ORdQG/glibc-2.27/wctype/wctype.c
 build/glibc-glibc-2ORdQG/glibc-2.27/wctype/wctype.h
 build/glibc-glibc-2ORdQG/glibc-2.27/wctype/bits/wctype-wchar.h
-.vscode/c_cpp_properties.json
 .gitignore
 chapter3/dst.txt
 chapter3/src.txt
