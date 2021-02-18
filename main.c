@@ -14,7 +14,9 @@
 //#include "chapter5/chapter5.h"
 //#include "chapter6/chapter6.h"
 //#include "chapter7/chapter7.h"
-#include "chapter10/chapter10.h"
+//#include "chapter10/chapter10.h"
+//#include "chapter11/chapter11.h"
+#include "chapter12/chapter12.h"
 
 
 int main(int argc,char** argv)
@@ -58,6 +60,9 @@ int main(int argc,char** argv)
     //t_sysconf();
     //t_fpathconf();
 
+    //chapter12
+    //procfs_pidmax(argc,argv);
+    //t_uname();
    
    
 

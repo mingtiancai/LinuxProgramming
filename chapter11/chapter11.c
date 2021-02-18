@@ -26,7 +26,7 @@ void t_sysconf()
     sysconfPrint("_SC_NGROUPS_MAX:    ", _SC_NGROUPS_MAX);
     sysconfPrint("_SC_PAGESIZE:       ", _SC_PAGESIZE);
     sysconfPrint("_SC_RTSIG_MAX:      ", _SC_RTSIG_MAX);
-    sysconfPrint("_op:      ", _SC_XOPEN_SOURCE);
+    //sysconfPrint("_op:      ", _SC_XOPEN_SOURCE);
     
 
 }
