@@ -18,6 +18,8 @@
                 "${fileDirname}/chapter10/chapter10.c",
                 "${fileDirname}/chapter11/chapter11.c",
                 "${fileDirname}/chapter12/chapter12.c",
+                "${fileDirname}/chapter13/chapter13.c",
+                "${fileDirname}/chapter14/chapter14.c",
                 "${fileDirname}/error_function.c",
                 "${fileDirname}/get_num.c",
                 "-lcrypt",

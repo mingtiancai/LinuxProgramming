@@ -77,6 +77,27 @@ time_t mktime(struct tm* timeptr);
 char* asctime(const struct tm* timeptr);
 size_t strftime(char* outstr,size_t maxsize,const char* format,const struct tm* timeptr);
 char* stlocale(int category,const char* locale);
+long sysconf(int name);
+long pathconf(const char* pathname,int name);
+long fpathconf(int fd,int name);
+int uname(struct utsname* utsbuf);
+int setvbuf(FILE* stream,char* buf,int mode,size_t size);
+void setbuf(FILE* stream,char* buf);
+void setbuffer(FILE* stream,char* buf,size_t size);
+int fflush(FILE* stream);
+int fsync(int fd);
+int fdatasync(int fd);
+void sync(void);
+int posix_fadvise(int fd,off_t offset,off_t len,int advice);
+int fileno(FILE* stream);
+FILE* fdopen(int fd,const char* mode);
+int mount(const char* cource,const char* target,const char* fstype,unsigned long mountflag,const void* data);
+int unmount(const char* target);
+int unmount2(const char* target,int flag);
+int statvfs(const char* pathname,struct statvfs* statvfsbuf);
+int fstatvfs(int fd,struct statvfs* statvfsbuf);
+
+
 
 
 

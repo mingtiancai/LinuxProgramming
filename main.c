@@ -16,7 +16,8 @@
 //#include "chapter7/chapter7.h"
 //#include "chapter10/chapter10.h"
 //#include "chapter11/chapter11.h"
-#include "chapter12/chapter12.h"
+//#include "chapter12/chapter12.h"
+#include "chapter13/chapter13.h"
 
 
 int main(int argc,char** argv)
@@ -63,7 +64,16 @@ int main(int argc,char** argv)
     //chapter12
     //procfs_pidmax(argc,argv);
     //t_uname();
+
+    //chapter13
+    //direct_read(argc,argv);
+
+    //chapter14
+    //t_mount(argc,argv);
+    
    
+
+
    
 
     printf("end!\n");
