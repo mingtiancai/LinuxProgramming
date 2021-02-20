@@ -71,7 +71,10 @@ int main(int argc,char** argv)
     //chapter14
     //t_mount(argc,argv);
     
-   
+    //chapter15
+    //t_stat(argc,argv);
+    //t_chown(argc,argv);
+    //t_umask(argc,argv);
 
 
    

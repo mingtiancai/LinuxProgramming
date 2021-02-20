@@ -96,6 +96,18 @@ int unmount(const char* target);
 int unmount2(const char* target,int flag);
 int statvfs(const char* pathname,struct statvfs* statvfsbuf);
 int fstatvfs(int fd,struct statvfs* statvfsbuf);
+int stat(const char* pathname,struct stat* statbuf);
+int lstat(const char* pathname,struct stat* statbuf);
+int fstat(int fd,struct stat* statbuf);
+int utime(const char* pathname,const struct utimbuf* buf);
+int utimensat(int firfd,const char* pathname,const struct timespec times[2],int flag);
+int chown(const char* pathname,uid_t owner,gid_t group);
+int lchown(const char* pathname,uid_t owner,gid_t group);
+int fchown(int fd,uid_t owner,gid_t group);
+int access(const char* pathname,int mode);
+mode_t umask(mode_t mask);
+int chmod(const char* pathname,mode_t mode);
+int fchmod(inf fd,mode_t mode);
 
 
 
