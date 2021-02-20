@@ -76,6 +76,9 @@ int main(int argc,char** argv)
     //t_chown(argc,argv);
     //t_umask(argc,argv);
 
+    //chapter16
+    xattr_view(argc,argv);
+
 
    
 
