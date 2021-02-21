@@ -77,7 +77,14 @@ int main(int argc,char** argv)
     //t_umask(argc,argv);
 
     //chapter16
-    xattr_view(argc,argv);
+    //xattr_view(argc,argv);
+
+    //chapter17
+
+
+
+
+    
 
 
    
