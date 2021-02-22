@@ -81,10 +81,16 @@ int main(int argc,char** argv)
 
     //chapter17
 
+    //chapter18
+    //t_unlink(argc,argv);
+    //list_files(argc,argv);
+    //nftw_dir_tree(argc,argv);
+    //view_symlink(argc,argv);
+    t_dirbasename(argc,argv);
 
 
 
-    
+
 
 
    
