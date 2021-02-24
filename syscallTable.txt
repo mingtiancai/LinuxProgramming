@@ -120,3 +120,26 @@ int fremovexattr(int fd,const char* name);
 ssize_t listxattr(const char* pathname,char* list,size_t size);
 ssize_t llistxattr(const char* pathname,char* list,size_t size);
 ssize_t flistxattr(int fd,char* list,size_t size);
+int link(const char* oldpath,const char* newpath);
+int unlink(const char* pathname);
+int rename(const char* oldpath,const char* newpath);
+int symlink(const char* filepath,const char* linkpath);
+ssize_t readlink(const char* pathname,char* buffer,size_t bufsiz);
+int mkdir(const char* pathname,mode_t mode);
+int rmdir(const char* pathname);
+int remove(const char* pathname);
+DIR* opendir(const char* dirpath);
+DIR* fdopendir(int fd);
+struct dirent* readdir(Dir* dirp);
+void rewinddir(DIR* dirp);
+int closedir(DIR* dirp);
+int firfd(DIR* dirp);
+char* getcwd(char* cwdbuf,size_t size);
+int chdir(const char* pathname);
+int fchdir(int fd);
+int chroot(const char* pathname);
+char* realpath(const char* pathname,char* resolved_path);
+char* dirname(char* pathname);
+char* basename(char* pathname);
+
+

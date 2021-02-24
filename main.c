@@ -86,8 +86,10 @@ int main(int argc,char** argv)
     //list_files(argc,argv);
     //nftw_dir_tree(argc,argv);
     //view_symlink(argc,argv);
-    t_dirbasename(argc,argv);
+    //t_dirbasename(argc,argv);
 
+    //chapter19
+    demo_inotify(argc,argv);
 
 
 
