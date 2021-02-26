@@ -26,11 +26,14 @@
                 "${fileDirname}/chapter18/chapter18.c",
                 "${fileDirname}/chapter19/chapter19.c",
                 "${fileDirname}/chapter20/chapter20.c",
+                "${fileDirname}/chapter21/chapter21.c",
                 "${fileDirname}/error_function.c",
                 "${fileDirname}/get_num.c",
                 "-lcrypt",
                 "-lm",
                 "-o",
+                //"-s",
+                //"-unlimited",
                 "${fileDirname}/${fileBasenameNoExtension}"
             ],
             "options": {
