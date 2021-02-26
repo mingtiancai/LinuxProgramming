@@ -17,7 +17,8 @@
 //#include "chapter10/chapter10.h"
 //#include "chapter11/chapter11.h"
 //#include "chapter12/chapter12.h"
-#include "chapter13/chapter13.h"
+//#include "chapter13/chapter13.h"
+#include "chapter20/chapter20.h"
 
 
 int main(int argc,char** argv)
@@ -89,7 +90,12 @@ int main(int argc,char** argv)
     //t_dirbasename(argc,argv);
 
     //chapter19
-    demo_inotify(argc,argv);
+    //demo_inotify(argc,argv);
+
+    //chapter20
+    //ouch(argc,argv);
+    //intquit(argc,argv);
+    //t_kill(argc,argv);
 
 
 
