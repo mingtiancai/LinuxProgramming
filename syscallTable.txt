@@ -144,5 +144,29 @@ char* basename(char* pathname);
 int inotify_init(void);
 int inotify_rm_watch(int fd,uint32_t wd);
 int inotify_add_watch(int fd,const char* pathname);
+void* signal(int sig,void* handle(int))(int);
+int kill(pid_t pid,int sig);
+int raise(int sig);
+int killpg(pid_t pgrp,int sig);
+char* strsignal(int sig);
+void psignal(int sig,const char* msg);
+int sigemptyset(sigset_t* set);
+int sigfillset(sigset_t* set);
+int sigaddset(sigset_t* set,int sig);
+int sigdelset(sigset_t* set,int sig);
+int sigismember(const sigset_t* set,int sig);
+int sigandset(sigset_t* set,sigset_t* left,sigset_t* right);
+int sigorset(sigset_t* dest,sigset_t* left,sigset_t* right);
+int sigisempty(const sigset_t* set);
+int sigprocmask(int how,const sigset_t* set,sigset_t* oldset);
+int sigpending(sigset_t* set);
+int sigaction(int sig,const struct sigaction* act,struct sigaction* oldact);
+int pause(void);
+int sigsetjmp(sigjmp_buf env,int savesigs);
+int siglongjmp(sigjmp_buf env,int val);
+void abort(void);
+int sigaltstack(const stack_t sigstack,stack_t* old_sigstack);
+
+
 
 

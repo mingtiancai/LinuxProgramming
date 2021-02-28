@@ -27,6 +27,8 @@
                 "${fileDirname}/chapter19/chapter19.c",
                 "${fileDirname}/chapter20/chapter20.c",
                 "${fileDirname}/chapter21/chapter21.c",
+                "${fileDirname}/chapter22/signal_functions.c",
+                "${fileDirname}/chapter22/chapter22.c",
                 "${fileDirname}/error_function.c",
                 "${fileDirname}/get_num.c",
                 "-lcrypt",
