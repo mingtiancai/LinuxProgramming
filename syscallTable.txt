@@ -166,6 +166,11 @@ int sigsetjmp(sigjmp_buf env,int savesigs);
 int siglongjmp(sigjmp_buf env,int val);
 void abort(void);
 int sigaltstack(const stack_t sigstack,stack_t* old_sigstack);
+int sigqueue(pid_t pid,int sig,const union sigbal value);
+int sigsuspend(const sigset_t* mask);
+int sigwaitinfo(const sigset_t* set,siginfo_t info);
+int sigtimedwait(const sigset_t* set,siginfo_t* info,const struct timespec* timeout);
+int signalfd(int fd,const sigset_t* mask,int flag);
 
 
 
