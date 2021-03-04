@@ -21,7 +21,8 @@
 //#include "chapter20/chapter20.h"
 //#include "chapter21/chapter21.h"
 //#include "chapter22/chapter22.h"
-#include "chapter23/chapter23.h"
+// #include "chapter23/chapter23.h"
+#include "chapter24/chapter24.h"
 
 
 
@@ -116,7 +117,13 @@ int main(int argc,char** argv)
    //timed_read(argc,argv);
    //t_nanosleep(argc,argv);
    //ptmr_sigev_signal(argc,argv);
-   demo_timerfd(argc,argv);
+   //demo_timerfd(argc,argv);
+
+   //chapter24
+   //t_fork(argc,argv);
+   //fork_file_sharing(argc,argv);
+   //footprint(argc,argv);
+   fork_sig_sync(argc,argv);
 
 
 

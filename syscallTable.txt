@@ -171,6 +171,31 @@ int sigsuspend(const sigset_t* mask);
 int sigwaitinfo(const sigset_t* set,siginfo_t info);
 int sigtimedwait(const sigset_t* set,siginfo_t* info,const struct timespec* timeout);
 int signalfd(int fd,const sigset_t* mask,int flag);
+int setitimeer(int which,const struct itimerval* new_value,struct itimerval* old_value);
+int getitimer(int which,struct itimerval* curr_value);
+unsigned int alarm(unsigned int seconds);
+unsigned int sleep(unsigned int seconds);
+int nanosleep(const struct timespec* request,struct timespec* remain);
+int clock_gettime(clockid_t clockid,struct timespec* tp);
+int clock_getres(clockid_t clockid,struct timespec* res);
+int clock_settime(clockid_t clockid,const struct timespec* tp);
+int clock_getcpuclockid(pid_t pid,clockid_t* clodkid);
+int pthread_getcpuclockid(pthread_t thread,clockid_t* clockid);
+int clock_nanosleep(clockid_t clockid,int flag,const struct timespec* request,struct timespec* remain);
+int timer_create(clockid_t clockid,struct sigevent* evp,timer_t* timerid);
+int timer_settime(timer_t timerid,int flag,const struct itimerspec* value,struct itimerspec* old_value);
+int timer_gettime(timer_t timerid,struct itimerspec* curr_value);
+int timer_delete(timer_t timerid);
+int timer_getoverrun(time_t timerid);
+int timerfd_create(int clockid,int flag);
+int timerfd_settime(int fd,int flag,const struct itimerspec* new_value,struct itimerspec* old_value);
+int timerfd_gettime(int fd,struct itimerspec* curr_value);
+
+
+
+
+
+
 
 
 
