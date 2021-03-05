@@ -22,7 +22,8 @@
 //#include "chapter21/chapter21.h"
 //#include "chapter22/chapter22.h"
 // #include "chapter23/chapter23.h"
-#include "chapter24/chapter24.h"
+//#include "chapter24/chapter24.h"
+#include "chapter25/chapter25.h"
 
 
 
@@ -123,8 +124,12 @@ int main(int argc,char** argv)
    //t_fork(argc,argv);
    //fork_file_sharing(argc,argv);
    //footprint(argc,argv);
-   fork_sig_sync(argc,argv);
+   //fork_sig_sync(argc,argv);
 
+   //chapter25
+   //exit_handlers(argc,argv);
+   fork_stdio_buf(argc,argv);
+   
 
 
 
