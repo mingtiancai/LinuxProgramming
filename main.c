@@ -23,8 +23,8 @@
 //#include "chapter22/chapter22.h"
 // #include "chapter23/chapter23.h"
 //#include "chapter24/chapter24.h"
-#include "chapter25/chapter25.h"
-
+// #include "chapter25/chapter25.h"
+#include "chapter26/chapter26.h"
 
 
 int main(int argc,char** argv)
@@ -128,7 +128,10 @@ int main(int argc,char** argv)
 
    //chapter25
    //exit_handlers(argc,argv);
-   fork_stdio_buf(argc,argv);
+   //fork_stdio_buf(argc,argv);
+
+   //chapter26
+   
    
 
 
