@@ -131,7 +131,10 @@ int main(int argc,char** argv)
    //fork_stdio_buf(argc,argv);
 
    //chapter26
-   
+   //multi_wait(argc,argv);
+   //child_status(argc,argv);
+   //make_zombie(argc,argv);
+   //multi_SIGCHLD(argc,argv);
    
 
 
