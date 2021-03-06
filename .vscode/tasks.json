@@ -33,6 +33,7 @@
                 "${fileDirname}/chapter24/chapter24.c",
                 "${fileDirname}/chapter25/chapter25.c",
                 "${fileDirname}/chapter26/chapter26.c",
+                "${fileDirname}/chapter27/chapter27.c",
                 "${fileDirname}/error_function.c",
                 "${fileDirname}/get_num.c",
                 "-lcrypt",
