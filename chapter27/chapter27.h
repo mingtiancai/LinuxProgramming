@@ -5,4 +5,6 @@ void t_execve(int argc,char** argv);
 
 void envargs(int argc,char** argv);
 
+void t_system(int argc,char** argv);
+
 #endif

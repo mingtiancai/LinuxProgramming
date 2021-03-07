@@ -139,7 +139,8 @@ int main(int argc,char** argv)
    
     //chapter27
     //t_execve(argc,argv);
-    envargs(argc,argv);
+    //envargs(argc,argv);
+    //t_system(argc,argv);
 
 
 
